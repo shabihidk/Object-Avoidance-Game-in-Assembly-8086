@@ -1,0 +1,10 @@
+# Ignore build artifacts and OS files
+*.exe
+*.obj
+*.bin
+*.o
+*.lst
+*.map
+*.log
+*.tmp
+*.DS_Store

@@ -31,13 +31,9 @@ Move your car up and down to dodge incoming obstacles and survive as long as you
 
 nasm -f bin src/object_avoidance_game.asm -o object_avoidance_game.com
 
-text
-
 ### Run
 
 dosbox object_avoidance_game.com
-
-text
 
 ---
 

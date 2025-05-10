@@ -29,3 +29,34 @@ Move your car up and down to dodge incoming obstacles and survive as long as you
 
 ### Build
 
+nasm -f bin src/object_avoidance_game.asm -o object_avoidance_game.com
+
+text
+
+### Run
+
+dosbox object_avoidance_game.com
+
+text
+
+---
+
+## 🎮 Controls
+
+| Key      | Action         |
+|----------|---------------|
+| Shift    | Move Up       |
+| Spacebar | Move Down     |
+| NumLock  | Quit Game     |
+
+---
+
+## 📄 Documentation
+
+- [Game Design](docs/design.md)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
